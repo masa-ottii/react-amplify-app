@@ -1,0 +1,5 @@
+type Kiji @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  title: String
+  body: String
+}
